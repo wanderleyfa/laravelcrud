@@ -1,6 +1,6 @@
 <?php
 
-namespace Roland\Crud\Commands;
+namespace WanderleyFA\CrudLaravel\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

@@ -1,18 +1,18 @@
 {
-    "name": "roland/crud",
-    "description": "This is a CRUD generator for Laravel 5.4",
+    "name": "wanderleyfa/crudlaravel",
+    "description": "This is a CRUD generator for Laravel 5.4 or superior,  based on https://github.com/roladn/laravelcrud",
     "license": "MIT",
     "authors": [
         {
-            "name": "Roland Alla",
-            "email": "alla.roland@gmail.com"
+            "name": "wanderley albuquerque",
+            "email": "wanderley@wanderleyfa.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
-            "Roland\\Crud\\": "src/"
+            "Wanderleyfa\\Crudlaravel\\": "src/"
         }
     }
 }

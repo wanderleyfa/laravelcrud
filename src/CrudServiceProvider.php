@@ -1,6 +1,6 @@
 <?php
 
-namespace Roland\Crud;
+namespace WanderleyFA\CrudLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -33,7 +33,7 @@ class CrudServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        
+
           if ($this->app->runningInConsole()) {
                 $this->commands([
                     Commands\CrudCommand::class,
@@ -42,7 +42,7 @@ class CrudServiceProvider extends ServiceProvider
                     Commands\CrudMigrationCommand::class,
                     Commands\CrudViewCommand::class,
                     Commands\PivotMigrationCommand::class,
-                    
+
                 ]);
             }
 
